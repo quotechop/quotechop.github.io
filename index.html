@@ -3,163 +3,311 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuoteChop Solutions</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background: linear-gradient(135deg, #4CAF50, #2E7D32);
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        header .logo img {
-            max-width: 80px;
-            margin-bottom: 10px;
-        }
-
-        header h1 {
-            margin: 10px 0;
-            font-size: 2.2rem;
-        }
-
-        header p {
-            font-size: 1rem;
-            opacity: 0.9;
-        }
-
-        nav {
-            background: #333;
-            color: white;
-            padding: 10px 0;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 1rem;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-
-        main h2 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-            color: #2E7D32;
-        }
-
-        main p {
-            font-size: 1rem;
-            margin-bottom: 20px;
-        }
-
-        form {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-        }
-
-        form input[type="file"] {
-            margin-bottom: 15px;
-        }
-
-        .flashy-button {
-            background-color: #4CAF50;
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            font-size: 16px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .flashy-button:hover {
-            background-color: #388E3C;
-        }
-
-        footer {
-            background: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-
-        footer a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <meta name="description" content="QuoteChop LLC provides electronics and IT infrastructure solutions for universities, research institutions, and CSR-aligned education programs.">
+    <meta name="keywords" content="institutional procurement, education technology, research infrastructure, academic IT solutions, electronics suppliers">
+    <meta name="author" content="QuoteChop LLC">
+    <title>QuoteChop LLC | Electronics & IT Infrastructure for Institutions</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="canonical" href="https://www.qchop.com">
 </head>
 <body>
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="QuoteChop Solutions Logo">
-        </div>
-        <h1>QuoteChop Solutions</h1>
-        <p>Where Every Price Falls!</p>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="QuoteChop LLC Logo" loading="lazy">
+                <div class="logo-text">
+                    QuoteChop<span class="llc">LLC</span>
+                </div>
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/divisions.html">Divisions</a></li>
+                <li><a href="pages/products.html">Products</a></li>
+                <li><a href="pages/csr.html">CSR Initiatives</a></li>
+                <li><a href="pages/institutions.html">Partner Institutions</a></li>
+                <li><a href="pages/documentation.html">Documentation</a></li>
+                <li><a href="pages/careers.html">Careers</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>QuoteChop LLC</h1>
+                        <p class="subtitle">Electronics and IT Infrastructure for Education and Research Institutions</p>
+                        <div class="hero-buttons">
+                            <a href="pages/contact.html" class="btn btn-primary">Request Consultation</a>
+                            <a href="pages/divisions.html" class="btn btn-secondary">View Divisions</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="tech-visual">
+                            <div class="floating-dot"></div>
+                            <div class="floating-dot"></div>
+                            <div class="floating-dot"></div>
+                            <div class="floating-dot"></div>
+                            <div class="network-line"></div>
+                            <div class="network-line"></div>
+                            <div class="network-line"></div>
+                            <div class="tech-circle"></div>
+                            <div class="tech-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <main>
-        <section id="products">
-            <h2>Workstations, Servers, Laptops, Printers & More</h2>
-            <p>Upload your quote at <strong>qchop.com</strong> and watch us beat it!</p>
-            <form action="/upload" method="post" enctype="multipart/form-data">
-                <input type="file" name="file" accept="image/*,application/pdf">
-                <button type="submit" class="flashy-button">Upload File</button>
-            </form>
+        <section class="section" id="what-we-do">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What QuoteChop Does</h2>
+                    <p>We provide structured procurement and technology solutions for institutional clients across education and research sectors.</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card feature-card">
+                        <div class="icon">🏛️</div>
+                        <h3>Institutional Procurement</h3>
+                        <p>Streamlined acquisition processes for universities, research institutes, and government-linked educational programs.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">🖥️</div>
+                        <h3>IT Infrastructure</h3>
+                        <p>Comprehensive technology solutions including networking, computing, and classroom equipment for academic environments.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">📋</div>
+                        <h3>Compliance & Documentation</h3>
+                        <p>Full compliance support with detailed documentation, reporting frameworks, and stakeholder coordination.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-sm">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Core Divisions</h2>
+                    <p>Our structured divisions provide specialized expertise across institutional technology needs.</p>
+                </div>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Institutional Procurement Division</h3>
+                        <p>Manages end-to-end procurement processes for large-scale educational and research institutions with compliance and efficiency focus.</p>
+                        <a href="pages/divisions.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="card">
+                        <h3>Academic IT Infrastructure Division</h3>
+                        <p>Designs and implements technology solutions tailored for educational environments and research facilities with institutional standards.</p>
+                        <a href="pages/divisions.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="card">
+                        <h3>CSR & Education Enablement Division</h3>
+                        <p>Supports digital infrastructure initiatives and educational access programs through structured institutional partnerships.</p>
+                        <a href="pages/csr.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="card">
+                        <h3>Documentation & Reporting Division</h3>
+                        <p>Ensures compliance, maintains documentation standards, and provides stakeholder reporting frameworks for institutional governance.</p>
+                        <a href="pages/documentation.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="product-categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Product Categories</h2>
+                    <p>Comprehensive electronics and IT equipment solutions for institutional requirements.</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card feature-card">
+                        <div class="icon">💻</div>
+                        <h3>Laptops & Workstations</h3>
+                        <p>Professional computing solutions for faculty, researchers, and institutional staff with enterprise specifications.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">🍎</div>
+                        <h3>Apple Devices</h3>
+                        <p>MacBook, iPad, and Apple ecosystem solutions for educational and research environments with institutional support.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">🖨️</div>
+                        <h3>Printers & Scanners</h3>
+                        <p>Document management solutions for administrative and academic departments with network integration.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">🌐</div>
+                        <h3>Networking Equipment</h3>
+                        <p>Enterprise-grade networking infrastructure for campus-wide connectivity and secure communications.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">📺</div>
+                        <h3>AV & Classroom Technology</h3>
+                        <p>Interactive learning solutions and audio-visual equipment for modern educational environments.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">💾</div>
+                        <h3>Storage & Accessories</h3>
+                        <p>Data storage solutions and essential accessories for institutional technology infrastructure.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="pages/products.html" class="btn btn-primary">View All Products</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-sm">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Institutional Focus</h2>
+                    <p>Specialized expertise in serving education and research sectors with compliant procurement processes.</p>
+                </div>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Universities & Colleges</h3>
+                        <p>Technology solutions for higher education institutions, from classroom equipment to research infrastructure with institutional standards.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Research Institutes</h3>
+                        <p>Specialized computing and laboratory equipment for scientific and academic research facilities with compliance requirements.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Government-Linked Institutions</h3>
+                        <p>Compliant procurement solutions for public sector educational programs and initiatives with regulatory adherence.</p>
+                    </div>
+                    <div class="card">
+                        <h3>CSR-Aligned Programs</h3>
+                        <p>Support for corporate social responsibility initiatives focused on education and digital access with structured frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Institutional Call-to-Action -->
+        <section class="section" style="background: var(--qc-bg-gradient);">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Partner with QuoteChop LLC</h2>
+                    <p>Experience institutional procurement excellence with technology solutions designed for education and research sectors.</p>
+                </div>
+                <div class="text-center">
+                    <a href="pages/contact.html" class="btn btn-primary" style="font-size: 1.25rem; padding: 1.25rem 3rem;">Request Institutional Consultation</a>
+                    <p style="margin-top: 2rem; color: var(--qc-muted); font-size: 1.125rem;">
+                        Serving universities, research institutes, and government-linked educational programs
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Documentation & Governance</h2>
+                    <p>Structured processes and compliance frameworks for institutional procurement and program management.</p>
+                </div>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Proposal Drafting</h3>
+                        <p>Professional proposal development aligned with institutional requirements and compliance standards.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Program Frameworks</h3>
+                        <p>Structured program design and implementation frameworks for educational technology initiatives.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Compliance Tracking</h3>
+                        <p>Ongoing monitoring and reporting to ensure adherence to institutional and regulatory requirements.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Stakeholder Coordination</h3>
+                        <p>Comprehensive stakeholder management and communication throughout program implementation.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="pages/documentation.html" class="btn">Learn About Our Processes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-sm" style="background: #f8fafc;">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Request Institutional Engagement</h2>
+                    <p>Begin the process of establishing a partnership with QuoteChop LLC for your institutional technology needs.</p>
+                </div>
+                <div class="text-center">
+                    <p style="max-width: 600px; margin: 0 auto 2rem; color: #666;">
+                        We work exclusively with educational institutions, research organizations, and government-linked programs. 
+                        All engagements begin with a formal consultation to understand your specific requirements and compliance needs.
+                    </p>
+                    <a href="pages/contact.html" class="btn">Start Institutional Consultation</a>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 QuoteChop Solutions | <a href="privacy.html">Privacy Policy</a></p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>
+                        <div class="logo" style="margin-bottom: 1rem;">
+                            <img src="assets/images/logo.png" alt="QuoteChop LLC Logo" style="height: 35px; margin-right: 0.5rem;">
+                            <div class="logo-text" style="font-size: 1.1rem;">
+                                QuoteChop<span class="llc">LLC</span>
+                            </div>
+                        </div>
+                    </h4>
+                    <p>Electronics and IT Infrastructure for Education and Research Institutions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="pages/divisions.html">Institutional Procurement</a></li>
+                        <li><a href="pages/products.html">Technology Solutions</a></li>
+                        <li><a href="pages/documentation.html">Documentation & Compliance</a></li>
+                        <li><a href="pages/csr.html">CSR Initiatives</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@qchop.com</p>
+                    <p>Phone: +91 94820 22972</p>
+                    <p>Address: Ground Floor, No.9, 1st Cross, Bashyam Nagar, Srirampuram, Bengaluru - 560021</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="pages/institutions.html">Partner Institutions</a></li>
+                        <li><a href="pages/documentation.html">Documentation</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                        <li><a href="pages/about.html">About QuoteChop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="pages/privacy.html">Privacy Policy</a></li>
+                        <li><a href="pages/terms.html">Terms of Use</a></li>
+                        <li><a href="pages/disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 QuoteChop LLC. All rights reserved. Primary domain: www.qchop.com</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
